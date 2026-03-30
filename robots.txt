@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sam1ce1.github.io/renpy-game-translator-russian/sitemap.xml

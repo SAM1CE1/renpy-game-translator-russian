@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Перевод игр на Ren'Py на русский язык | NovaTextVN</title>
+  <meta name="description" content="NovaTextVN — переводчик игр на Ren'Py на русский язык. Автоматический перевод Ren'Py игр, готовый zip-файл для установки, real-time перевод и pre-scan.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://sam1ce1.github.io/renpy-game-translator-russian/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Перевод игр на Ren'Py на русский язык | NovaTextVN">
+  <meta property="og:description" content="Автоматический переводчик игр на Ren'Py на русский язык с готовым zip-файлом для установки.">
+  <meta property="og:url" content="https://sam1ce1.github.io/renpy-game-translator-russian/">
+  <meta property="og:site_name" content="NovaTextVN">
+  <meta name="twitter:card" content="summary_large_image">
+  <style>
+    :root {
+      --bg: #0a1020;
+      --bg2: #121c33;
+      --panel: rgba(12, 20, 37, 0.78);
+      --text: #edf3ff;
+      --muted: #a9b8d2;
+      --accent: #56d8b5;
+      --accent2: #ffcf6e;
+      --border: rgba(255, 255, 255, 0.12);
+      --shadow: 0 18px 60px rgba(0, 0, 0, 0.35);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(86, 216, 181, 0.18), transparent 36%),
+        radial-gradient(circle at top right, rgba(255, 207, 110, 0.16), transparent 28%),
+        linear-gradient(180deg, var(--bg), var(--bg2));
+      font-family: "Segoe UI", "Noto Sans", sans-serif;
+      line-height: 1.6;
+    }
+
+    .wrap {
+      width: min(1080px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .hero {
+      padding: 72px 0 36px;
+    }
+
+    .hero-box,
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .hero-box {
+      padding: 40px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(86, 216, 181, 0.12);
+      color: var(--accent);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    h1, h2 {
+      line-height: 1.15;
+      margin: 0 0 16px;
+    }
+
+    h1 {
+      font-size: clamp(36px, 6vw, 62px);
+      max-width: 880px;
+    }
+
+    h2 {
+      font-size: clamp(24px, 3vw, 34px);
+    }
+
+    p {
+      margin: 0 0 16px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 20px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: transform 0.15s ease;
+    }
+
+    .btn:hover { transform: translateY(-1px); }
+
+    .btn-primary {
+      background: linear-gradient(90deg, var(--accent), #7ef0d1);
+      color: #082116;
+    }
+
+    .btn-secondary {
+      border: 1px solid var(--border);
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    .grid {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      margin: 26px 0 0;
+    }
+
+    .card {
+      padding: 24px;
+    }
+
+    .section {
+      padding: 18px 0 26px;
+    }
+
+    ul, ol {
+      margin: 0;
+      padding-left: 22px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    .faq {
+      display: grid;
+      gap: 18px;
+    }
+
+    .faq .card p:last-child,
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .footer {
+      padding: 24px 0 60px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    @media (max-width: 900px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-box,
+      .card {
+        padding: 22px;
+      }
+
+      p, ul, ol {
+        font-size: 16px;
+      }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "NovaTextVN",
+    "applicationCategory": "GameApplication",
+    "operatingSystem": "Windows",
+    "url": "https://sam1ce1.github.io/renpy-game-translator-russian/",
+    "downloadUrl": "https://github.com/SAM1CE1/NovaTextVN-Releases/releases/latest",
+    "description": "Переводчик игр на Ren'Py на русский язык с готовым zip-файлом для установки.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-box">
+          <div class="eyebrow">NovaTextVN</div>
+          <h1>Перевод игр на Ren'Py на русский язык</h1>
+          <p>NovaTextVN — переводчик для игр на Ren'Py, который помогает переводить визуальные новеллы на русский язык в реальном времени. Подходит тем, кто ищет автоматический перевод игр на Ren'Py, готовый zip-файл для установки и удобный внутриигровой интерфейс.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://github.com/SAM1CE1/NovaTextVN-Releases/releases/latest">Скачать NovaTextVN</a>
+            <a class="btn btn-secondary" href="https://github.com/SAM1CE1/NovaTextVN-Releases">Открыть репозиторий релизов</a>
+          </div>
+          <div class="grid">
+            <div class="card">
+              <h2>Готовый zip</h2>
+              <p>Не нужно собирать проект вручную. Пользователь скачивает готовый архив и копирует файлы в папку игры.</p>
+            </div>
+            <div class="card">
+              <h2>Real-time перевод</h2>
+              <p>Перевод игр на Ren'Py происходит прямо во время игры, а уже обработанные строки берутся из кэша.</p>
+            </div>
+            <div class="card">
+              <h2>Pre-scan и кэш</h2>
+              <p>Предварительная обработка и кэширование уменьшают задержки и делают перевод новых реплик заметно быстрее.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="card">
+          <h2>Что это такое</h2>
+          <p>Если вам нужен переводчик для игр на Ren'Py на русский язык, NovaTextVN даёт готовый путь установки без ручной сборки. Это решение подходит для visual novel проектов на движке Ren'Py, где нужен автоматический перевод текста и быстрый запуск через готовый релизный архив.</p>
+          <p>По сути это инструмент для тех, кто ищет запросы вроде <strong>перевод игр на Ren'Py</strong>, <strong>перевод игр на Ren'Py на русский</strong> и <strong>переводчик для игр на Ren'Py</strong>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="card">
+          <h2>Как установить переводчик для игр на Ren'Py</h2>
+          <ol>
+            <li>Скачайте актуальный архив `novatextvn_dropin.zip`.</li>
+            <li>Распакуйте архив на компьютере.</li>
+            <li>Откройте папку установленной игры.</li>
+            <li>Перейдите в каталог `game`.</li>
+            <li>Скопируйте туда `novatextvn_patch.rpa` и `novatextvn_core.exe`.</li>
+            <li>Запустите игру обычным способом.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="grid">
+          <div class="card">
+            <h2>Почему NovaTextVN</h2>
+            <ul>
+              <li>готовый zip-файл для установки</li>
+              <li>подходит для перевода игр на Ren'Py на русский язык</li>
+              <li>есть real-time перевод и предварительный pre-scan</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h2>Для кого</h2>
+            <ul>
+              <li>для игроков visual novel</li>
+              <li>для тех, кто ищет автоматический перевод Ren'Py игр</li>
+              <li>для тех, кому нужен быстрый способ установки без сборки исходников</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h2>Скачать</h2>
+            <p>Актуальный релиз всегда доступен в публичном репозитории релизов.</p>
+            <p><a class="btn btn-primary" href="https://github.com/SAM1CE1/NovaTextVN-Releases/releases/latest">Перейти к последнему релизу</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2>FAQ</h2>
+        <div class="faq">
+          <div class="card">
+            <p><strong>Подходит ли это для перевода игр на Ren'Py на русский?</strong></p>
+            <p>Да, страница и релизы NovaTextVN ориентированы именно на перевод игр на Ren'Py на русский язык.</p>
+          </div>
+          <div class="card">
+            <p><strong>Нужно ли собирать исходники вручную?</strong></p>
+            <p>Нет. Пользователю достаточно скачать готовый архив и скопировать файлы в папку `game` нужной игры.</p>
+          </div>
+          <div class="card">
+            <p><strong>Где находится актуальный zip?</strong></p>
+            <p>В публичном репозитории релизов: `NovaTextVN-Releases`.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>NovaTextVN является proprietary-продуктом. Публичная доступность релизной страницы не означает передачу прав на модификацию, декомпиляцию, перераспространение или перепродажу.</p>
+    </div>
+  </footer>
+</body>
+</html>
