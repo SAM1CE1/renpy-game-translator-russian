@@ -161,28 +161,50 @@
 
     .img-grid {
       display: grid;
-      gap: 20px;
+      gap: 22px;
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      margin-top: 22px;
+      margin-top: 24px;
+      align-items: stretch;
     }
 
     .shot {
-      padding: 16px;
+      padding: 20px;
       overflow: hidden;
+      transition: transform 0.28s ease, border-color 0.28s ease, box-shadow 0.28s ease;
+    }
+
+    .shot:hover {
+      transform: translateY(-4px);
+      border-color: rgba(86, 216, 181, 0.35);
+      box-shadow: 0 22px 70px rgba(0, 0, 0, 0.42);
+    }
+
+    .shot-media {
+      overflow: hidden;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.03);
     }
 
     .shot img {
       display: block;
       width: 100%;
       height: auto;
-      border-radius: 16px;
-      border: 1px solid var(--border);
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      transition: transform 0.45s ease;
+      transform-origin: center center;
+    }
+
+    .shot:hover img {
+      transform: scale(1.12);
     }
 
     .shot figcaption {
-      margin-top: 12px;
-      color: var(--muted);
-      font-size: 15px;
+      margin-top: 14px;
+      color: var(--text);
+      font-size: 17px;
+      line-height: 1.5;
     }
 
     .footer {
@@ -203,6 +225,10 @@
       }
 
       p, ul, ol {
+        font-size: 16px;
+      }
+
+      .shot figcaption {
         font-size: 16px;
       }
     }
@@ -289,26 +315,32 @@
 
           <div class="img-grid">
             <figure class="card shot">
-              <img
-                src="./images/F10.png"
-                alt="переводчик для игр на Ren'Py: меню NovaTextVN по клавише F10"
-                loading="lazy">
+              <div class="shot-media">
+                <img
+                  src="./images/F10.png"
+                  alt="переводчик для игр на Ren'Py: меню NovaTextVN по клавише F10"
+                  loading="lazy">
+              </div>
               <figcaption>Меню NovaTextVN по клавише F10.</figcaption>
             </figure>
 
             <figure class="card shot">
-              <img
-                src="./images/DoPerevoda.png"
-                alt="игра на Ren'Py до перевода на русский язык"
-                loading="lazy">
+              <div class="shot-media">
+                <img
+                  src="./images/DoPerevoda.png"
+                  alt="игра на Ren'Py до перевода на русский язык"
+                  loading="lazy">
+              </div>
               <figcaption>Пример игры до перевода.</figcaption>
             </figure>
 
             <figure class="card shot">
-              <img
-                src="./images/PoslePerevoda.png"
-                alt="перевод игр на Ren'Py на русский язык с помощью NovaTextVN"
-                loading="lazy">
+              <div class="shot-media">
+                <img
+                  src="./images/PoslePerevoda.png"
+                  alt="перевод игр на Ren'Py на русский язык с помощью NovaTextVN"
+                  loading="lazy">
+              </div>
               <figcaption>Пример игры после перевода на русский язык.</figcaption>
             </figure>
           </div>
