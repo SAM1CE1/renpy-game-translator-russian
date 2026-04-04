@@ -159,6 +159,32 @@
       margin-bottom: 0;
     }
 
+    .img-grid {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      margin-top: 22px;
+    }
+
+    .shot {
+      padding: 16px;
+      overflow: hidden;
+    }
+
+    .shot img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+    }
+
+    .shot figcaption {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
     .footer {
       padding: 24px 0 60px;
       color: var(--muted);
@@ -166,7 +192,8 @@
     }
 
     @media (max-width: 900px) {
-      .grid {
+      .grid,
+      .img-grid {
         grid-template-columns: 1fr;
       }
 
@@ -250,6 +277,41 @@
             <li>Скопируйте туда `novatextvn_patch.rpa` и `novatextvn_core.exe`.</li>
             <li>Запустите игру обычным способом.</li>
           </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="card">
+          <h2>Как выглядит перевод в игре</h2>
+          <p>Ниже показаны меню NovaTextVN, экран игры до перевода и пример перевода игр на Ren'Py на русский язык.</p>
+
+          <div class="img-grid">
+            <figure class="card shot">
+              <img
+                src="./images/F10.png"
+                alt="переводчик для игр на Ren'Py: меню NovaTextVN по клавише F10"
+                loading="lazy">
+              <figcaption>Меню NovaTextVN по клавише F10.</figcaption>
+            </figure>
+
+            <figure class="card shot">
+              <img
+                src="./images/DoPerevoda.png"
+                alt="игра на Ren'Py до перевода на русский язык"
+                loading="lazy">
+              <figcaption>Пример игры до перевода.</figcaption>
+            </figure>
+
+            <figure class="card shot">
+              <img
+                src="./images/PoslePerevoda.png"
+                alt="перевод игр на Ren'Py на русский язык с помощью NovaTextVN"
+                loading="lazy">
+              <figcaption>Пример игры после перевода на русский язык.</figcaption>
+            </figure>
+          </div>
         </div>
       </div>
     </section>

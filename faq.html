@@ -4,8 +4,163 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>FAQ: как перевести игру на Ren'Py на русский | NovaTextVN</title>
-  <meta name="description" content="FAQ о переводе игр на Ren'Py на русский язык: как установить переводчик, где скачать, как работает pre-scan и что делать, если игра не переводится.">
+  <meta name="description" content="FAQ о переводе игр на Ren'Py на русский язык: как перевести игру, как установить переводчик, как работает pre-scan, что делать, если игра не переводится, и где скачать NovaTextVN.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://sam1ce1.github.io/renpy-game-translator-russian/faq.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="FAQ: как перевести игру на Ren'Py на русский | NovaTextVN">
+  <meta property="og:description" content="Ответы на частые вопросы о переводе игр на Ren'Py на русский язык: установка, скачивание, pre-scan и устранение проблем с переводом.">
+  <meta property="og:url" content="https://sam1ce1.github.io/renpy-game-translator-russian/faq.html">
+  <meta property="og:site_name" content="NovaTextVN">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <style>
+    :root {
+      --bg: #0a1020;
+      --bg2: #121c33;
+      --panel: rgba(12, 20, 37, 0.78);
+      --text: #edf3ff;
+      --muted: #a9b8d2;
+      --accent: #56d8b5;
+      --border: rgba(255, 255, 255, 0.12);
+      --shadow: 0 18px 60px rgba(0, 0, 0, 0.35);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(86, 216, 181, 0.18), transparent 36%),
+        radial-gradient(circle at top right, rgba(255, 207, 110, 0.16), transparent 28%),
+        linear-gradient(180deg, var(--bg), var(--bg2));
+      font-family: "Segoe UI", "Noto Sans", sans-serif;
+      line-height: 1.6;
+    }
+
+    .wrap {
+      width: min(980px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .hero {
+      padding: 64px 0 28px;
+    }
+
+    .hero-box,
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .hero-box {
+      padding: 36px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(86, 216, 181, 0.12);
+      color: var(--accent);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    h1, h2 {
+      line-height: 1.15;
+      margin: 0 0 16px;
+    }
+
+    h1 {
+      font-size: clamp(34px, 5vw, 54px);
+      max-width: 860px;
+    }
+
+    h2 {
+      font-size: clamp(24px, 3vw, 32px);
+    }
+
+    p {
+      margin: 0 0 16px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .section {
+      padding: 18px 0 26px;
+    }
+
+    .card {
+      padding: 24px;
+    }
+
+    .faq {
+      display: grid;
+      gap: 18px;
+    }
+
+    .faq-item h2 {
+      margin-bottom: 12px;
+    }
+
+    .nav-links,
+    .extra-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 20px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: transform 0.15s ease;
+      background: linear-gradient(90deg, var(--accent), #7ef0d1);
+      color: #082116;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      text-decoration: none;
+    }
+
+    .footer {
+      padding: 24px 0 60px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    @media (max-width: 900px) {
+      .hero-box,
+      .card {
+        padding: 22px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  </style>
 
   <script type="application/ld+json">
   {
@@ -25,7 +180,7 @@
         "name": "Как установить переводчик для Ren'Py игр?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Установка переводчика для Ren'Py игр обычно занимает всего несколько минут. Скачайте архив, откройте папку с игрой, найдите каталог game и скопируйте туда файлы из архива. При необходимости заранее сделайте резервную копию оригинальных файлов."
+          "text": "Установка переводчика для Ren'Py игр обычно занимает несколько минут. Скачайте архив, откройте папку с игрой, найдите каталог game и скопируйте туда файлы из архива. При необходимости заранее сделайте резервную копию оригинальных файлов."
         }
       },
       {
@@ -81,36 +236,83 @@
   </script>
 </head>
 <body>
-  <h1>FAQ: перевод игр на Ren'Py на русский</h1>
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-box">
+          <div class="eyebrow">NovaTextVN FAQ</div>
+          <h1>FAQ: как перевести игру на Ren'Py на русский</h1>
+          <p>На этой странице собраны ответы на основные вопросы о переводе игр на Ren'Py на русский язык: как установить переводчик, где его скачать, как работает pre-scan, есть ли real-time перевод и что делать, если игра не переводится.</p>
+          <div class="nav-links">
+            <a class="btn" href="https://github.com/SAM1CE1/NovaTextVN-Releases/releases/latest">Скачать NovaTextVN</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <h2>Как перевести игру на Ren'Py на русский?</h2>
-  <p>Чтобы перевести игру на Ren'Py на русский язык, скачайте готовый релиз NovaTextVN, распакуйте архив и скопируйте файлы переводчика в папку <code>game</code> вашей игры. После этого запустите игру как обычно: перевод текста начнётся автоматически.</p>
+    <section class="section">
+      <div class="wrap">
+        <div class="faq">
+          <div class="card faq-item">
+            <h2>Как перевести игру на Ren'Py на русский?</h2>
+            <p>Чтобы перевести игру на Ren'Py на русский язык, скачайте готовый релиз NovaTextVN, распакуйте архив и скопируйте файлы переводчика в папку <code>game</code> вашей игры. После этого запустите игру как обычно: перевод текста начнётся автоматически.</p>
+          </div>
 
-  <h2>Как установить переводчик для Ren'Py игр?</h2>
-  <p>Установка переводчика для Ren'Py игр обычно занимает всего несколько минут. Скачайте архив, откройте папку с игрой, найдите каталог <code>game</code> и скопируйте туда файлы из архива. При необходимости заранее сделайте резервную копию оригинальных файлов.</p>
+          <div class="card faq-item">
+            <h2>Как установить переводчик для Ren'Py игр?</h2>
+            <p>Установка переводчика для Ren'Py игр обычно занимает несколько минут. Скачайте архив, откройте папку с игрой, найдите каталог <code>game</code> и скопируйте туда файлы из архива. При необходимости заранее сделайте резервную копию оригинальных файлов.</p>
+          </div>
 
-  <h2>Нужно ли собирать исходники?</h2>
-  <p>Нет, для обычного пользователя это не требуется. Чтобы перевести игру Ren'Py на русский, достаточно скачать готовый zip-архив и установить его в игру.</p>
+          <div class="card faq-item">
+            <h2>Нужно ли собирать исходники?</h2>
+            <p>Нет, для обычного пользователя это не требуется. Чтобы перевести игру Ren'Py на русский, достаточно скачать готовый zip-архив и установить его в игру.</p>
+          </div>
 
-  <h2>Что такое pre-scan?</h2>
-  <p>Pre-scan — это предварительное сканирование строк в игре на Ren'Py перед основным переводом. Эта функция помогает заранее обработать часть текста, подготовить данные для кэша и ускорить дальнейший перевод на русский язык.</p>
+          <div class="card faq-item">
+            <h2>Что такое pre-scan?</h2>
+            <p>Pre-scan — это предварительное сканирование строк в игре на Ren'Py перед основным переводом. Эта функция помогает заранее обработать часть текста, подготовить данные для кэша и ускорить дальнейший перевод на русский язык.</p>
+          </div>
 
-  <h2>Как работает pre-scan?</h2>
-  <p>Во время pre-scan переводчик для Ren'Py игр проходит по доступным строкам диалогов и интерфейса, собирает текст и подготавливает его к последующему переводу. За счёт этого повторяющиеся фразы обрабатываются быстрее, а задержки во время игры становятся меньше.</p>
+          <div class="card faq-item">
+            <h2>Как работает pre-scan?</h2>
+            <p>Во время pre-scan переводчик для Ren'Py игр проходит по доступным строкам диалогов и интерфейса, собирает текст и подготавливает его к последующему переводу. За счёт этого повторяющиеся фразы обрабатываются быстрее, а задержки во время игры становятся меньше.</p>
+          </div>
 
-  <h2>Есть ли real-time перевод?</h2>
-  <p>Да, NovaTextVN поддерживает real-time перевод игр на Ren'Py на русский язык. Переведённые строки могут кэшироваться, чтобы ускорять повторный показ текста.</p>
+          <div class="card faq-item">
+            <h2>Есть ли real-time перевод?</h2>
+            <p>Да, NovaTextVN поддерживает real-time перевод игр на Ren'Py на русский язык. Переведённые строки могут кэшироваться, чтобы ускорять повторный показ текста.</p>
+          </div>
 
-  <h2>Что делать, если игра не переводится?</h2>
-  <p>Если игра на Ren'Py не переводится, сначала проверьте, что файлы переводчика были скопированы именно в папку <code>game</code>. Затем убедитесь, что архив распакован полностью и что игра действительно сделана на Ren'Py. Если перевод всё ещё не работает, попробуйте переустановить переводчик, очистить старый кэш, выполнить pre-scan и проверить, не блокирует ли файлы антивирус.</p>
+          <div class="card faq-item">
+            <h2>Что делать, если игра не переводится?</h2>
+            <p>Если игра на Ren'Py не переводится, сначала проверьте, что файлы переводчика были скопированы именно в папку <code>game</code>. Затем убедитесь, что архив распакован полностью и что игра действительно сделана на Ren'Py. Если перевод всё ещё не работает, попробуйте переустановить переводчик, очистить старый кэш, выполнить pre-scan и проверить, не блокирует ли файлы антивирус.</p>
+          </div>
 
-  <h2>Где скачать переводчик Ren'Py игр?</h2>
-  <p>Скачать переводчик для игр на Ren'Py можно на странице проекта NovaTextVN. Для большинства пользователей подходит готовый релиз в архиве, который можно сразу распаковать и установить без сборки исходников.</p>
+          <div class="card faq-item">
+            <h2>Где скачать переводчик Ren'Py игр?</h2>
+            <p>Скачать переводчик для игр на Ren'Py можно на странице проекта NovaTextVN. Для большинства пользователей подходит готовый релиз в архиве, который можно сразу распаковать и установить без сборки исходников.</p>
+          </div>
 
-  <p>
-    <a href="./prescan.html">Подробнее про pre-scan</a> |
-    <a href="./realtime.html">Подробнее про real-time</a> |
-    <a href="./index.html">Главная</a>
-  </p>
+          <div class="card faq-item">
+            <h2>Полезные страницы</h2>
+            <p>Ниже собраны страницы, которые помогут быстрее разобраться с установкой, скачиванием и особенностями перевода игр на Ren'Py на русский язык.</p>
+            <div class="extra-links">
+              <a href="./index.html">Главная</a>
+              <a href="./download.html">Скачать переводчик</a>
+              <a href="./install.html">Как установить переводчик</a>
+              <a href="./prescan.html">Подробнее про pre-scan</a>
+              <a href="./realtime.html">Подробнее про real-time перевод</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>NovaTextVN является proprietary-продуктом. Публичная доступность релизной страницы не означает передачу прав на модификацию, декомпиляцию, перераспространение или перепродажу.</p>
+    </div>
+  </footer>
 </body>
 </html>
