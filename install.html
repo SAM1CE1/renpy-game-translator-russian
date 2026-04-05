@@ -4,19 +4,135 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Как установить переводчик для игр на Ren'Py | NovaTextVN</title>
-  <meta name="description" content="Как установить переводчик для игр на Ren'Py на русский язык: пошаговая инструкция по установке NovaTextVN.">
+  <meta name="description" content="Пошаговая установка NovaTextVN для перевода игр на Ren'Py на русский язык: куда распаковать архив, какие файлы копировать и как включить перевод в игре.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://sam1ce1.github.io/renpy-game-translator-russian/install.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Как установить переводчик для игр на Ren'Py | NovaTextVN">
+  <meta property="og:description" content="Пошаговая инструкция по установке NovaTextVN для перевода игр на Ren'Py на русский язык.">
+  <meta property="og:url" content="https://sam1ce1.github.io/renpy-game-translator-russian/install.html">
+  <meta property="og:site_name" content="NovaTextVN">
+  <meta name="twitter:card" content="summary_large_image">
+  <style>
+    :root {
+      --bg: #09111f;
+      --bg2: #13203b;
+      --panel: rgba(12, 20, 37, 0.82);
+      --text: #edf3ff;
+      --muted: #a9b8d2;
+      --accent: #56d8b5;
+      --border: rgba(255, 255, 255, 0.12);
+      --shadow: 0 18px 60px rgba(0, 0, 0, 0.35);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(86, 216, 181, 0.16), transparent 36%),
+        radial-gradient(circle at top right, rgba(120, 170, 255, 0.16), transparent 28%),
+        linear-gradient(180deg, var(--bg), var(--bg2));
+      font-family: "Segoe UI", "Noto Sans", sans-serif;
+      line-height: 1.65;
+    }
+    a { color: #8ae7ff; }
+    .wrap { width: min(1080px, calc(100% - 32px)); margin: 0 auto; }
+    .topbar { padding: 20px 0 8px; font-size: 15px; color: var(--muted); }
+    .topbar a { text-decoration: none; color: var(--muted); margin-right: 14px; }
+    .hero, .card { background: var(--panel); border: 1px solid var(--border); border-radius: 24px; box-shadow: var(--shadow); backdrop-filter: blur(10px); }
+    .hero { padding: 36px; margin: 12px 0 24px; }
+    .card { padding: 24px; }
+    .eyebrow { display: inline-block; margin-bottom: 14px; padding: 8px 12px; border-radius: 999px; background: rgba(86, 216, 181, 0.12); color: var(--accent); font-size: 13px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+    h1, h2 { line-height: 1.15; margin: 0 0 16px; }
+    h1 { font-size: clamp(34px, 5vw, 58px); }
+    h2 { font-size: clamp(24px, 3vw, 34px); }
+    p { margin: 0 0 16px; color: var(--muted); font-size: 18px; }
+    .section { padding: 0 0 24px; }
+    .grid { display: grid; gap: 20px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    ul, ol { margin: 0; padding-left: 22px; color: var(--muted); font-size: 18px; }
+    li + li { margin-top: 10px; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 24px; }
+    .btn { display: inline-block; padding: 14px 20px; border-radius: 14px; text-decoration: none; font-weight: 700; transition: transform 0.15s ease; }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-primary { background: linear-gradient(90deg, var(--accent), #7ef0d1); color: #082116; }
+    .btn-secondary { border: 1px solid var(--border); color: var(--text); background: rgba(255, 255, 255, 0.04); }
+    .footer { padding: 8px 0 50px; color: var(--muted); font-size: 15px; }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: 1fr; }
+      .hero, .card { padding: 22px; }
+      p, ul, ol { font-size: 16px; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Как установить переводчик для игр на Ren'Py</h1>
-  <ol>
-    <li>Скачайте `novatextvn_dropin.zip`.</li>
-    <li>Распакуйте архив.</li>
-    <li>Откройте папку игры.</li>
-    <li>Перейдите в папку `game`.</li>
-    <li>Скопируйте `novatextvn_patch.rpa` и `novatextvn_core.exe`.</li>
-    <li>Запустите игру.</li>
-  </ol>
-  <p><a href="./download.html">Скачать</a> | <a href="./faq.html">FAQ</a> | <a href="./index.html">Главная</a></p>
+  <div class="wrap">
+    <div class="topbar">
+      <a href="./index.html">Главная</a>
+      <a href="./download.html">Скачать</a>
+      <a href="./faq.html">FAQ</a>
+      <a href="./support.html">Поддержка</a>
+    </div>
+    <main>
+      <section class="hero">
+        <div class="eyebrow">Пошаговая инструкция</div>
+        <h1>Как установить переводчик для игр на Ren'Py</h1>
+        <p>Установка NovaTextVN рассчитана на обычного пользователя, а не на разработчика. Тебе не нужно собирать проект, настраивать Python или разбираться в исходниках. Вся задача сводится к правильной распаковке релизного архива в папку игры.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="./download.html">Скачать архив</a>
+          <a class="btn btn-secondary" href="./faq.html">Открыть FAQ</a>
+        </div>
+      </section>
+      <section class="section">
+        <div class="card">
+          <h2>Пошаговая установка</h2>
+          <ol>
+            <li>Скачай актуальный архив NovaTextVN со страницы релизов.</li>
+            <li>Открой папку установленной игры на Ren'Py.</li>
+            <li>Найди внутри игры каталог `game`.</li>
+            <li>Распакуй содержимое архива именно в `game/`, а не в корень игры.</li>
+            <li>Проверь, что новые файлы NovaTextVN появились рядом со скриптами игры.</li>
+            <li>Запусти игру обычным способом.</li>
+            <li>После запуска открой меню NovaTextVN через F10 и включи нужные параметры перевода.</li>
+          </ol>
+        </div>
+      </section>
+      <section class="section">
+        <div class="grid">
+          <div class="card">
+            <h2>Частые ошибки при установке</h2>
+            <ul>
+              <li>архив распакован не в `game/`, а в корневую папку игры</li>
+              <li>файлы оказались в дополнительной вложенной папке после распаковки</li>
+              <li>пользователь запустил игру, но не открыл меню F10 для проверки статуса</li>
+              <li>используется игра не на Ren'Py или сильно модифицированная сборка</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h2>Что проверить после установки</h2>
+            <ul>
+              <li>игра запускается без ошибок</li>
+              <li>в папке `game` действительно лежат файлы NovaTextVN</li>
+              <li>внутриигровое меню F10 открывается</li>
+              <li>перевод включён и начинает работать на диалогах</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="card">
+          <h2>Что делать дальше</h2>
+          <p>После базовой установки можно просто играть с real-time переводом. Если игра длинная или содержит много текста, затем уже имеет смысл попробовать pre-scan и кэширование, чтобы снизить задержки на новых репликах.</p>
+          <p>Если что-то не заработало с первого раза, не прыгай сразу в сложную диагностику. Сначала проверь расположение файлов, потом страницу совместимости, а затем FAQ.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="./realtime.html">Что такое real-time перевод</a>
+            <a class="btn btn-secondary" href="./compatibility.html">Проверить совместимость</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Если хочешь следить за развитием проекта и обновлениями, открой страницу <a href="./support.html">поддержки NovaTextVN</a> или Boosty проекта.</p>
+    </footer>
+  </div>
 </body>
 </html>

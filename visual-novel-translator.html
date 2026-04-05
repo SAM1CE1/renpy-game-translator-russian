@@ -4,12 +4,94 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Переводчик visual novel на русский | NovaTextVN</title>
-  <meta name="description" content="Переводчик visual novel на русский язык для игр на Ren'Py. NovaTextVN помогает переводить визуальные новеллы в real-time.">
+  <meta name="description" content="NovaTextVN как переводчик visual novel на русский язык: подходит для игр на Ren'Py, помогает переводить диалоги, меню и длинные сценарии.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://sam1ce1.github.io/renpy-game-translator-russian/visual-novel-translator.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Переводчик visual novel на русский | NovaTextVN">
+  <meta property="og:description" content="Переводчик visual novel на русский язык для игр на Ren'Py: установка, перевод в real-time и предварительное сканирование.">
+  <meta property="og:url" content="https://sam1ce1.github.io/renpy-game-translator-russian/visual-novel-translator.html">
+  <meta property="og:site_name" content="NovaTextVN">
+  <meta name="twitter:card" content="summary_large_image">
+  <style>
+    :root { --bg: #09111f; --bg2: #13203b; --panel: rgba(12, 20, 37, 0.82); --text: #edf3ff; --muted: #a9b8d2; --accent: #56d8b5; --border: rgba(255, 255, 255, 0.12); --shadow: 0 18px 60px rgba(0, 0, 0, 0.35); }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--text); background: radial-gradient(circle at top left, rgba(86, 216, 181, 0.16), transparent 36%), radial-gradient(circle at top right, rgba(120, 170, 255, 0.16), transparent 28%), linear-gradient(180deg, var(--bg), var(--bg2)); font-family: "Segoe UI", "Noto Sans", sans-serif; line-height: 1.65; }
+    a { color: #8ae7ff; }
+    .wrap { width: min(1080px, calc(100% - 32px)); margin: 0 auto; }
+    .topbar { padding: 20px 0 8px; font-size: 15px; color: var(--muted); }
+    .topbar a { text-decoration: none; color: var(--muted); margin-right: 14px; }
+    .hero, .card { background: var(--panel); border: 1px solid var(--border); border-radius: 24px; box-shadow: var(--shadow); backdrop-filter: blur(10px); }
+    .hero { padding: 36px; margin: 12px 0 24px; }
+    .card { padding: 24px; }
+    .eyebrow { display: inline-block; margin-bottom: 14px; padding: 8px 12px; border-radius: 999px; background: rgba(86, 216, 181, 0.12); color: var(--accent); font-size: 13px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+    h1, h2 { line-height: 1.15; margin: 0 0 16px; }
+    h1 { font-size: clamp(34px, 5vw, 58px); }
+    h2 { font-size: clamp(24px, 3vw, 34px); }
+    p { margin: 0 0 16px; color: var(--muted); font-size: 18px; }
+    .section { padding: 0 0 24px; }
+    .grid { display: grid; gap: 20px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    ul { margin: 0; padding-left: 22px; color: var(--muted); font-size: 18px; }
+    li + li { margin-top: 10px; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 24px; }
+    .btn { display: inline-block; padding: 14px 20px; border-radius: 14px; text-decoration: none; font-weight: 700; transition: transform 0.15s ease; }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-primary { background: linear-gradient(90deg, var(--accent), #7ef0d1); color: #082116; }
+    .btn-secondary { border: 1px solid var(--border); color: var(--text); background: rgba(255, 255, 255, 0.04); }
+    .footer { padding: 8px 0 50px; color: var(--muted); font-size: 15px; }
+    @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } .hero, .card { padding: 22px; } p, ul { font-size: 16px; } }
+  </style>
 </head>
 <body>
-  <h1>Переводчик visual novel на русский</h1>
-  <p>NovaTextVN подходит тем, кто ищет переводчик visual novel на русский язык, особенно для проектов, сделанных на Ren'Py.</p>
-  <p><a href="./renpy-translator.html">Переводчик для Ren'Py</a> | <a href="./russian-translation.html">Перевод на русский</a> | <a href="./index.html">Главная</a></p>
+  <div class="wrap">
+    <div class="topbar">
+      <a href="./index.html">Главная</a>
+      <a href="./renpy-translator.html">Ren'Py translator</a>
+      <a href="./download.html">Скачать</a>
+      <a href="./faq.html">FAQ</a>
+    </div>
+    <main>
+      <section class="hero">
+        <div class="eyebrow">Visual Novel</div>
+        <h1>Переводчик visual novel на русский</h1>
+        <p>Если ты ищешь переводчик visual novel на русский язык, NovaTextVN ориентирован именно на тот тип игр, где текст, меню и сцены строятся на движке Ren'Py. Это означает более прямой и понятный путь установки для игроков визуальных новелл, чем попытки собирать кастомные скрипты вручную.</p>
+      </section>
+      <section class="section">
+        <div class="grid">
+          <div class="card">
+            <h2>Что важно для visual novel</h2>
+            <ul>
+              <li>быстрый показ диалогов во время чтения</li>
+              <li>сохранение уже переведённых реплик</li>
+              <li>удобный перевод длинных сюжетных сцен</li>
+              <li>минимум ручной настройки перед игрой</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h2>Почему подходит NovaTextVN</h2>
+            <ul>
+              <li>есть real-time перевод во время прохождения</li>
+              <li>есть pre-scan для длинных сценариев</li>
+              <li>есть кэш перевода для повторных сцен</li>
+              <li>дистрибуция идёт через готовый релизный архив</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="card">
+          <h2>С чего начать</h2>
+          <p>Если ты просто хочешь перевести visual novel на русский, начни с обычной установки и первой проверки в real-time режиме. После этого уже можно усилить результат через pre-scan и кэширование.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="./download.html">Скачать NovaTextVN</a>
+            <a class="btn btn-secondary" href="./install.html">Посмотреть установку</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>NovaTextVN особенно полезен тем, кто регулярно играет в визуальные новеллы на Ren'Py и хочет стабильный перевод на русский язык без сложной подготовки.</p>
+    </footer>
+  </div>
 </body>
 </html>

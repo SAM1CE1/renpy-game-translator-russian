@@ -1,52 +1,43 @@
 # Перевод игр на Ren'Py на русский язык
 
-NovaTextVN — переводчик игр на Ren'Py на русский язык с готовым zip-файлом для установки.
-
-Этот репозиторий нужен как публичная SEO-страница и точка входа для людей, которые ищут:
+NovaTextVN — публичная SEO-страница и точка входа для людей, которые ищут:
 
 - перевод игр на Ren'Py
 - перевод игр на Ren'Py на русский
 - переводчик для игр на Ren'Py
-- автоматический перевод Ren'Py игр
+- переводчик visual novel на русский язык
 
-## Скачать
+Главная страница сайта:
 
-Актуальный релиз:
+- https://sam1ce1.github.io/renpy-game-translator-russian/
 
-- [Скачать NovaTextVN](https://github.com/SAM1CE1/NovaTextVN-Releases/releases/latest)
+Скачать актуальный релиз:
 
-Репозиторий с релизами:
+- https://github.com/SAM1CE1/NovaTextVN-Releases/releases/latest
 
-- [NovaTextVN-Releases](https://github.com/SAM1CE1/NovaTextVN-Releases)
+Репозиторий релизов:
 
-## Что это такое
+- https://github.com/SAM1CE1/NovaTextVN-Releases
 
-NovaTextVN — это переводчик для игр на движке Ren'Py, который позволяет переводить визуальные новеллы на русский язык в реальном времени.
+Поддержка и обновления проекта:
 
-Подходит для тех, кто ищет:
+- https://boosty.to/novatextvn
+- https://sam1ce1.github.io/renpy-game-translator-russian/support.html
 
-- перевод игр на Ren'Py на русский язык
-- автоматический перевод визуальных новелл
-- переводчик для Ren'Py игр с готовой установкой
+## Что делает NovaTextVN
 
-## Как установить
+NovaTextVN помогает переводить игры на Ren'Py на русский язык через готовый архив для установки. Пользователь скачивает релиз, кладёт файлы в папку `game` нужной игры и затем использует real-time перевод, pre-scan и кэширование строк.
 
-1. Скачайте актуальный `novatextvn_dropin.zip`.
-2. Распакуйте архив.
-3. Откройте папку игры.
-4. Перейдите в папку `game`.
-5. Скопируйте туда:
-   - `novatextvn_patch.rpa`
-   - `novatextvn_core.exe`
-6. Запустите игру.
+## Полезные страницы
 
-## Преимущества
-
-- перевод игр на Ren'Py на русский язык без ручной сборки
-- готовый zip-файл для установки
-- поддержка real-time перевода
-- pre-scan и кэширование перевода
-- удобная внутриигровая панель управления
+- [Скачать NovaTextVN](https://sam1ce1.github.io/renpy-game-translator-russian/download.html)
+- [Как установить NovaTextVN](https://sam1ce1.github.io/renpy-game-translator-russian/install.html)
+- [FAQ](https://sam1ce1.github.io/renpy-game-translator-russian/faq.html)
+- [Real-time перевод](https://sam1ce1.github.io/renpy-game-translator-russian/realtime.html)
+- [Pre-scan](https://sam1ce1.github.io/renpy-game-translator-russian/prescan.html)
+- [Кэш перевода](https://sam1ce1.github.io/renpy-game-translator-russian/cache.html)
+- [Совместимость](https://sam1ce1.github.io/renpy-game-translator-russian/compatibility.html)
+- [Поддержка и обновления](https://sam1ce1.github.io/renpy-game-translator-russian/support.html)
 
 ## Важно
 
