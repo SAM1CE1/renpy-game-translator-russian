@@ -1,0 +1,1 @@
+import{j as o}from"./react-core-D4kK9j8e.js";import{P as r}from"./ProblemGuidePage-Cizet60a.js";import"./PageLayout-Bx_a1UWY.js";import"./index-BJVuzcds.js";import"./icons-C-d9R8MI.js";import"./motion-DT7l2x_J.js";import"./ProblemGuideCards-DPkAZSYN.js";function s(){return o.jsx(r,{guideKey:"f10NotOpening"})}export{s as F10NotOpeningPage};
