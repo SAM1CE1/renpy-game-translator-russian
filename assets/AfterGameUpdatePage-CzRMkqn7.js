@@ -1,1 +1,0 @@
-import{j as r}from"./react-core-D4kK9j8e.js";import{P as t}from"./ProblemGuidePage-BJvqByAh.js";import"./PageLayout-BUJ0qI1D.js";import"./index-BtFb6tpn.js";import"./icons-D1BXDf50.js";import"./motion-DT7l2x_J.js";import"./ProblemGuideCards-CpT8NikH.js";function s(){return r.jsx(t,{guideKey:"afterGameUpdate"})}export{s as AfterGameUpdatePage};

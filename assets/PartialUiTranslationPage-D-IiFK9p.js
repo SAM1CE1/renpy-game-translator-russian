@@ -1,0 +1,1 @@
+import{j as r}from"./react-core-D4kK9j8e.js";import{P as i}from"./ProblemGuidePage-BP_EFBOH.js";import"./PageLayout-BXRKO_W-.js";import"./index-DIsRYzRg.js";import"./icons-CTLwiYye.js";import"./motion-DT7l2x_J.js";import"./ProblemGuideCards-DhT-c-1I.js";function s(){return r.jsx(i,{guideKey:"partialUiTranslation"})}export{s as PartialUiTranslationPage};
