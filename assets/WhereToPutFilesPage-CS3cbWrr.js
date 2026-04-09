@@ -1,1 +1,0 @@
-import{j as r}from"./react-core-D4kK9j8e.js";import{P as e}from"./ProblemGuidePage-DjYKFK9L.js";import"./PageLayout-DczCilI_.js";import"./index-DGi1aF_G.js";import"./icons-C-d9R8MI.js";import"./motion-DT7l2x_J.js";import"./ProblemGuideCards-ClP7TkMb.js";function P(){return r.jsx(e,{guideKey:"whereToPutFiles"})}export{P as WhereToPutFilesPage};
