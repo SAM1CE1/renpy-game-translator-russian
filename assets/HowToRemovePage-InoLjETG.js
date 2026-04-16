@@ -1,1 +1,0 @@
-import{j as o}from"./react-core-D4kK9j8e.js";import{P as r}from"./ProblemGuidePage-TPPDKz41.js";import"./PageLayout-CWJ6n4qJ.js";import"./index--YPp_gvf.js";import"./icons-68d2zhQj.js";import"./motion-DT7l2x_J.js";import"./ProblemGuideCards-BF2Iqmig.js";function a(){return o.jsx(r,{guideKey:"howToRemove"})}export{a as HowToRemovePage};
