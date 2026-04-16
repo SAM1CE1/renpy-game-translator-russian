@@ -1,53 +1,303 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/about.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/download.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/install.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/faq.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/prescan.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/realtime.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/cache.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/compatibility.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/security.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/troubleshooting.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/f10-not-opening.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/where-to-put-files.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/how-to-remove.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/partial-ui-translation.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/after-game-update.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/changelog.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/pro.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/pro-context-ai.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/pro-full-game.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/pro-multi-service.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/pro-edit-ingame.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/pro-profiles.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/pro-dictionary.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/pro-quality-modes.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/about.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/download.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/install.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/faq.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/prescan.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/realtime.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/cache.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/compatibility.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/security.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/troubleshooting.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/f10-not-opening.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/where-to-put-files.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/how-to-remove.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/partial-ui-translation.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/after-game-update.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/changelog.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/pro.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-context-ai.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-full-game.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-multi-service.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-edit-ingame.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-profiles.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-dictionary.html</loc></url>
-  <url><loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-quality-modes.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/about.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/about.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/about.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/about.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/about.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/about.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/download.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/download.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/download.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/download.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/download.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/download.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/download.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/download.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/install.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/install.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/install.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/install.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/install.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/install.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/install.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/install.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/faq.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/faq.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/faq.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/faq.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/faq.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/faq.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/prescan.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/prescan.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/prescan.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/prescan.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/prescan.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/prescan.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/prescan.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/prescan.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/realtime.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/realtime.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/realtime.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/realtime.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/realtime.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/realtime.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/realtime.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/realtime.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/cache.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/cache.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/cache.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/cache.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/cache.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/cache.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/cache.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/cache.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/compatibility.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/compatibility.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/compatibility.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/compatibility.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/compatibility.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/compatibility.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/compatibility.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/compatibility.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/security.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/security.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/security.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/security.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/security.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/security.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/security.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/security.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/troubleshooting.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/troubleshooting.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/troubleshooting.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/troubleshooting.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/troubleshooting.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/troubleshooting.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/troubleshooting.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/troubleshooting.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/f10-not-opening.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/f10-not-opening.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/f10-not-opening.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/f10-not-opening.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/f10-not-opening.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/f10-not-opening.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/f10-not-opening.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/f10-not-opening.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/where-to-put-files.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/where-to-put-files.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/where-to-put-files.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/where-to-put-files.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/where-to-put-files.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/where-to-put-files.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/where-to-put-files.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/where-to-put-files.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/how-to-remove.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/how-to-remove.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/how-to-remove.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/how-to-remove.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/how-to-remove.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/how-to-remove.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/how-to-remove.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/how-to-remove.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/partial-ui-translation.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/partial-ui-translation.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/partial-ui-translation.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/partial-ui-translation.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/partial-ui-translation.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/partial-ui-translation.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/partial-ui-translation.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/partial-ui-translation.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/after-game-update.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/after-game-update.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/after-game-update.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/after-game-update.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/after-game-update.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/after-game-update.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/after-game-update.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/after-game-update.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/changelog.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/changelog.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/changelog.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/changelog.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/changelog.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/changelog.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/changelog.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/changelog.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/pro.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/pro.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/pro.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/pro.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/pro-context-ai.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-context-ai.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-context-ai.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-context-ai.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-context-ai.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-context-ai.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-context-ai.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-context-ai.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/pro-full-game.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-full-game.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-full-game.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-full-game.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-full-game.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-full-game.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-full-game.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-full-game.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/pro-multi-service.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-multi-service.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-multi-service.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-multi-service.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-multi-service.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-multi-service.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-multi-service.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-multi-service.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/pro-edit-ingame.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-edit-ingame.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-edit-ingame.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-edit-ingame.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-edit-ingame.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-edit-ingame.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-edit-ingame.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-edit-ingame.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/pro-profiles.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-profiles.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-profiles.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-profiles.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-profiles.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-profiles.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-profiles.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-profiles.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/pro-dictionary.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-dictionary.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-dictionary.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-dictionary.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-dictionary.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-dictionary.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-dictionary.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-dictionary.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/pro-quality-modes.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-quality-modes.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-quality-modes.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-quality-modes.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-quality-modes.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-quality-modes.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/pro-quality-modes.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/pro-quality-modes.html" />
+  </url>
 </urlset>
