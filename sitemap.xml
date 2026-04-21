@@ -13,6 +13,42 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/" />
   </url>
   <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/renpy-translator.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/renpy-translator.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/renpy-translator.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/renpy-translator.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/renpy-translator.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/renpy-translator.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/renpy-translator.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/renpy-translator.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/visual-novel-translator.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/visual-novel-translator.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/visual-novel-translator.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/visual-novel-translator.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/visual-novel-translator.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/visual-novel-translator.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/visual-novel-translator.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/visual-novel-translator.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/russian-translation.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/russian-translation.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/russian-translation.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/russian-translation.html" />
+  </url>
+  <url>
+    <loc>https://sam1ce1.github.io/renpy-game-translator-russian/en/russian-translation.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/russian-translation.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/russian-translation.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sam1ce1.github.io/renpy-game-translator-russian/russian-translation.html" />
+  </url>
+  <url>
     <loc>https://sam1ce1.github.io/renpy-game-translator-russian/about.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://sam1ce1.github.io/renpy-game-translator-russian/about.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://sam1ce1.github.io/renpy-game-translator-russian/en/about.html" />
